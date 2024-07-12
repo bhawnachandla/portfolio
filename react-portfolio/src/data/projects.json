@@ -1,0 +1,26 @@
+[
+  {
+    "title": "VisitUs",
+    "imageSrc": "projects/VisitUS.png",
+    "description": "VisitUs is a travel package booking site ",
+    "skills": [],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Homyz",
+    "imageSrc": "projects/Homyz.png",
+    "description": "This project is a real estate Website",
+    "skills": [],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Landing Page",
+    "imageSrc": "projects/starbucks.png",
+    "description": "Responsive and attractive landing of Starbucks  ",
+    "skills": [],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/bhawnachandla/Starbucks-Landing-Page"
+  }
+]
