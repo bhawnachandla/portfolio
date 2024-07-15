@@ -2,25 +2,41 @@
   {
     "title": "VisitUs",
     "imageSrc": "projects/VisitUS.png",
-    "description": "VisitUs is a travel package booking site ",
+    "description": "VisitUs is a Full Stack travel package booking site ",
     "skills": [],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "demo": "",
+    "source": ""
   },
   {
     "title": "Homyz",
     "imageSrc": "projects/Homyz.png",
     "description": "This project is a real estate Website",
     "skills": [],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "demo": "https://real-estate-myapp.netlify.app/",
+    "source": "https://github.com/bhawnachandla/my-real-estate-app.git"
   },
   {
     "title": "Landing Page",
     "imageSrc": "projects/starbucks.png",
     "description": "Responsive and attractive landing of Starbucks  ",
     "skills": [],
-    "demo": "https://www.example.com",
-    "source": "https://github.com/bhawnachandla/Starbucks-Landing-Page"
+    "demo": "https://bhawnachandla.github.io/starbuck-landing-page/",
+    "source": "https://github.com/bhawnachandla/starbuck-landing-page.git"
+  }, 
+  {
+    "title": "Tic Tac Toe",
+    "imageSrc": "projects/tictac.png",
+    "description": "Play online with this interactive JavaScript game!",
+    "skills": [],
+    "demo": "https://github.com/bhawnachandla/Tic-Tac-Toe",
+    "source": "https://github.com/bhawnachandla/Tic-Tac-Toe.git"
+  },
+  {
+    "title": "My Portfolio",
+    "imageSrc": "projects/portfolio.png",
+    "description": "Explore my portfolio, crafted with React for engaging experience.",
+    "skills": [],
+    "demo": "https://github.com/bhawnachandla/Tic-Tac-Toe",
+    "source": "https://github.com/bhawnachandla/Tic-Tac-Toe.git"
   }
 ]
