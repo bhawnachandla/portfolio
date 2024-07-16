@@ -3,26 +3,42 @@
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   border-radius: 10px;
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
-  max-width: 345px;
+  max-width: 350px;
+  height: 350px; /* Fixed height for equal-sized cards */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.2);
 }
 
 .image {
   margin-bottom: 26px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  max-height: 200px; /* Ensure image doesn't exceed a certain height */
 }
 
 .title {
   font-size: 25px;
   font-weight: 700;
+  color: var(--color-text);
+  margin: 0;
 }
 
 .description {
   margin-top: 6px;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 400;
+  color: var(--color-text);
+  flex-grow: 1; /* Allow description to grow and fill available space */
 }
 
 .skills {
@@ -33,29 +49,37 @@
   flex-wrap: wrap;
   gap: 6px;
   list-style: none;
+  padding: 0;
 }
 
 .skill {
-  font-size: 25px;
+  font-size: 14px;
   font-weight: 400;
   border-radius: 100px;
   background: var(--color-dark);
-  padding: 2px 22px;
+  color: var(--color-light);
+  padding: 5px 12px;
 }
 
 .links {
   width: 100%;
-  margin-top: 26px;
+  margin-top: auto; /* Ensure links are at the bottom */
   display: flex;
   justify-content: space-around;
+  margin-bottom: 0; /* Remove extra margin at the bottom */
 }
 
 .link {
   text-decoration: none;
-  color: var(--color-text);
-  font-size: 30px;
+  color: var(--color-light);
+  font-size: 16px;
   font-weight: 600;
   border-radius: 100px;
   background: var(--color-primary);
-  padding: 1px 22px;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease;
+}
+
+.link:hover {
+  background-color: var(--color-primary-dark);
 }

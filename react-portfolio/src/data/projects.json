@@ -1,8 +1,8 @@
 [
   {
     "title": "VisitUs",
-    "imageSrc": "projects/VisitUS.png",
-    "description": "VisitUs is a Full Stack travel package booking site ",
+    "imageSrc": "projects/Visitus.png",
+    "description":"Travel package booking site",
     "skills": [],
     "demo": "",
     "source": ""
@@ -28,7 +28,7 @@
     "imageSrc": "projects/tictac.png",
     "description": "Play online with this interactive JavaScript game!",
     "skills": [],
-    "demo": "https://github.com/bhawnachandla/Tic-Tac-Toe",
+    "demo": "https://bhawnachandla.github.io/Tic-Tac-Toe/",
     "source": "https://github.com/bhawnachandla/Tic-Tac-Toe.git"
   },
   {
@@ -36,7 +36,7 @@
     "imageSrc": "projects/portfolio.png",
     "description": "Explore my portfolio, crafted with React for engaging experience.",
     "skills": [],
-    "demo": "https://github.com/bhawnachandla/Tic-Tac-Toe",
-    "source": "https://github.com/bhawnachandla/Tic-Tac-Toe.git"
+    "demo": "https://bhawna-port-folio.netlify.app/",
+   "source": "https://github.com/bhawnachandla/portfolio.git"
   }
 ]

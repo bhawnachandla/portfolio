@@ -5,35 +5,44 @@
   margin-top: 79px;
   margin-left: 10%;
   margin-right: 10%;
+  padding-bottom: 40px;
 }
 
 .title {
   color: var(--color-text);
-  font-size: 35px;
+  font-size: 40px; /* Increased font size */
   font-weight: 700;
-  letter-spacing: 1.75px;
+  letter-spacing: 2px; /* Slightly increased letter spacing */
   text-transform: uppercase;
+  text-align: center; /* Centered the title */
+  margin-bottom: 20px; /* Added bottom margin for spacing */
+  background: linear-gradient(90deg, #576cbc 0%, #132a53 100%); /* Added gradient background */
+  padding: 10px; /* Added padding */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow */
+  color: white; /* Changed text color */
 }
 
 .content {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 14px;
+  margin-top: 45px;
+  gap: 40px; /* Increased gap between skills and history */
 }
 
 .skills {
   width: 45%;
   display: flex;
   flex-wrap: wrap;
-  gap: 37px;
+  gap: 30px; /* Adjusted gap between skills */
 }
 
 .skill {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 11px;
+  gap: 15px; /* Adjusted gap within skill */
 }
 
 .skillImageContainer {
@@ -42,36 +51,44 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 120px;
-  height: 120px;
+  width: 100px; /* Adjusted size for consistency */
+  height: 100px; /* Adjusted size for consistency */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow for better appearance */
 }
 
 .skillImageContainer img {
-  width: 75px;
+  width: 60px; /* Adjusted image size for better fit */
 }
 
 .skill p {
-  font-size: 25px;
+  font-size: 22px; /* Adjusted font size for consistency */
   font-family: var(--font-roboto);
   font-weight: 500;
+  text-align: center; /* Centered text */
 }
 
 .history {
   width: 45%;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 30px; /* Adjusted gap between history items */
 }
 
 .historyItem {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 17px;
-  background: #19376d;
+  gap: 20px; /* Adjusted gap within history item */
   background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
   border-radius: 10px;
   padding: 24px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow for better appearance */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added hover effects */
+}
+
+.historyItem:hover {
+  transform: translateY(-5px); /* Slight hover lift effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
 }
 
 .historyItem img {
@@ -83,21 +100,23 @@
 }
 
 .historyItemDetails h3 {
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 28px; /* Adjusted font size for consistency */
+  font-weight: 600; /* Increased font weight */
+  margin: 0; /* Removed default margin */
 }
 
 .historyItemDetails p {
-  font-size: 20px;
+  font-size: 18px; /* Adjusted font size for consistency */
   font-weight: 300;
+  margin: 5px 0; /* Added margin for spacing */
 }
 
 .historyItemDetails ul {
-  margin-top: 6px;
+  margin-top: 10px; /* Adjusted margin for spacing */
   list-style-position: inside;
-  font-size: 25px;
+  font-size: 18px; /* Adjusted font size for consistency */
   list-style-type: disc;
-  margin-left: 17px;
+  margin-left: 20px; /* Adjusted margin for spacing */
 }
 
 @media screen and (max-width: 830px) {
@@ -115,6 +134,27 @@
 
   .history {
     width: 100%;
-    gap: 9px;
+    gap: 15px; /* Adjusted gap for smaller screens */
+  }
+
+  .skillImageContainer {
+    width: 80px; /* Adjusted size for smaller screens */
+    height: 80px; /* Adjusted size for smaller screens */
+  }
+
+  .skillImageContainer img {
+    width: 50px; /* Adjusted size for smaller screens */
+  }
+
+  .skill p {
+    font-size: 20px; /* Adjusted size for smaller screens */
+  }
+
+  .historyItemDetails h3 {
+    font-size: 24px; /* Adjusted size for smaller screens */
+  }
+
+  .historyItemDetails p, .historyItemDetails ul {
+    font-size: 16px; /* Adjusted size for smaller screens */
   }
 }

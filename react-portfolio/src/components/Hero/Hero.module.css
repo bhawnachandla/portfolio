@@ -20,7 +20,7 @@
 }
 
 .title {
-  font-size: 72px;
+  font-size: 60px; /* Adjusted font size */
   font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
@@ -34,7 +34,7 @@
 }
 
 .description {
-  font-size: 30px;
+  font-size: 28px; /* Adjusted font size */
   font-family: var(--font-roboto);
   margin-bottom: 52px;
 }
@@ -44,18 +44,21 @@
   background-color: var(--color-primary);
   color: var(--color-text);
   border-radius: 100px;
-  font-size: 30px;
+  font-size: 28px; /* Adjusted font size */
   font-weight: 600;
   padding: 17px 26px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.25); /* Increased shadow for better visibility */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for scale effect */
 }
 
-
+.contactBtn:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.35); /* Enhanced shadow on hover */
+}
 
 .heroImg {
- /* width: 40%; */
- height: 500px;
- width: 500px;
+  height: 500px;
+  width: 500px;
   z-index: 1;
   border: 5px solid rgb(248, 243, 243); /* Define the border */
   border-radius: 50%; /* Make the border circular */
@@ -82,7 +85,6 @@
   width: 50vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 350px;
   top: -128px;
   left: -10vw;
   border-radius: 764px;
@@ -95,7 +97,6 @@
   position: absolute;
   width: 70vw;
   height: 50vw;
-  min-width: 350px;
   min-width: 250px;
   top: 246px;
   right: -25vw;
@@ -112,5 +113,22 @@
 
   .content {
     align-items: center;
+  }
+
+  .title {
+    font-size: 50px; /* Adjusted font size for smaller screens */
+  }
+
+  .description {
+    font-size: 24px; /* Adjusted font size for smaller screens */
+  }
+
+  .contactBtn {
+    font-size: 24px; /* Adjusted font size for smaller screens */
+  }
+
+  .heroImg {
+    width: 80%;
+    height: auto;
   }
 }

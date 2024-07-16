@@ -16,12 +16,13 @@ export const Hero = () => {
           <br />
           Connect with me by clicking below!
         </p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>
+        <a href="mailto:bhawnachandla28@gmail.com?subject=Inquiry&body=Hello Bhawna," className={styles.contactBtn}>
           Contact Me
         </a>
+
       </div>
       <img
-        src={getImageUrl("hero/my-img.jpg")}
+        src={getImageUrl("hero/hero-img.jpg")}
         alt="Hero image of me"
         className={styles.heroImg}
       />

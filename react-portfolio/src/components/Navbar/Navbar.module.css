@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
+  padding: 20px 0; /* Adjusted padding */
   z-index: 2;
   margin: 0 10%;
 }
@@ -15,11 +15,26 @@
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
 }
 
+.title:hover {
+  color: #ffcc00; /* Change color on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
 
 .menuBtn {
   display: none;
+  font-size: 30px; /* Adjusted font size */
+  color: var(--color-text);
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+.menuBtn:hover {
+  color: #ffcc00; /* Change color on hover */
 }
 
 .menu {
@@ -28,14 +43,21 @@
 
 .menuItems {
   display: flex;
-  gap: 47px;
+  gap: 30px; /* Adjusted gap */
   list-style: none;
 }
 
 .menuItems a {
-  font-size: 25px;
+  font-size: 20px; /* Adjusted font size */
+  font-weight: 500; /* Adjusted font weight */
   color: var(--color-text);
   text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.menuItems a:hover {
+  color: #ffcc00; /* Change color on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
 }
 
 @media screen and (max-width: 830px) {
@@ -52,27 +74,25 @@
     align-items: flex-end;
     gap: 11px;
     z-index: 3;
+    background: var(--color-secondary); /* Kept background secondary for dropdown */
+    padding: 20px; /* Adjusted padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added subtle shadow */
   }
 
   .menuBtn {
     display: block;
-    cursor: pointer;
   }
 
   .menuItems {
     display: none;
     flex-direction: column;
     align-items: center;
-    gap: 13px;
-    border-radius: 10px;
-    background: rgb(25, 55, 109);
-    background: linear-gradient(
-      0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
-    );
-    padding: 24px 33px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    gap: 15px; /* Adjusted gap */
+    padding: 20px 30px; /* Adjusted padding */
+    background: var(--color-secondary); /* Kept background secondary for dropdown */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added subtle shadow */
   }
 
   .menuOpen {
