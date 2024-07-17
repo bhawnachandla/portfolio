@@ -1,10 +1,10 @@
 [
   {
-    "title": "HTML",
+    "title": "Html",
     "imageSrc": "skills/html.png"
   },
   {
-    "title": "CSS",
+    "title": "Css",
     "imageSrc": "skills/css.png"
   },
   {
@@ -12,7 +12,7 @@
     "imageSrc": "skills/react.png"
   },
   {
-    "title": "Node",
+    "title": "Node Js",
     "imageSrc": "skills/node.png"
   },
 
@@ -21,4 +21,5 @@
     "imageSrc": "skills/mongodb.png"
   }
   
+ 
 ]

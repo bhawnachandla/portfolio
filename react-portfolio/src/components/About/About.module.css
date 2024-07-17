@@ -118,4 +118,23 @@
     padding-left: 0;
     padding-right: 0;
   }
+ 
+
+}
+@media screen and (max-width: 480px) {
+  .container {
+    margin-left: 3%;
+    margin-right: 3%;
+    /* gap: 1.5rem; */
+  }
+
+  .title {
+    font-size: 20px; /* Further reduced font size for very small screens */
+    margin-bottom: 10px; /* Further reduced margin */
+    padding: 6px; /* Further reduced padding */
+  }
+
+  .aboutItemText h3 {
+    font-size: 20px; /* Further adjusted font size for very small screens */
+  }
 }
