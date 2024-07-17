@@ -84,6 +84,7 @@
 
   .links {
     align-items: center;
+    gap: 7px;
   }
 
   .link {
@@ -100,17 +101,17 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .container {
     padding: 20px 5%;
   }
 
   .text h2 {
-    font-size: 30px; /* Further reduced font size for better readability on very small screens */
+    font-size: 25px; /* Further reduced font size for better readability on very small screens */
   }
 
   .text p {
-    font-size: 18px; /* Further reduced font size for better readability on very small screens */
+    font-size: 16px; /* Further reduced font size for better readability on very small screens */
   }
 
   .link img {
@@ -119,6 +120,7 @@
   }
 
   .link a {
-    font-size: 16px; /* Further reduced font size for better readability on very small screens */
+    font-size: 14px; 
+    /* Further reduced font size for better readability on very small screens */
   }
 }
