@@ -38,5 +38,21 @@
     "skills": [],
     "demo": "https://bhawna-port-folio.netlify.app/",
    "source": "https://github.com/bhawnachandla/portfolio.git"
+  },
+  {
+    "title": "My To Do App",
+    "imageSrc": "projects/portfolio.png",
+    "description": "a simple to do app created in react.",
+    "skills": [],
+    "demo": "https://myapp-to-do.netlify.app/",
+   "source": "https://github.com/bhawnachandla/To-do-app"
+  },
+  {
+    "title": "Weather App",
+    "imageSrc": "projects/weatherapp.png",
+    "description": "a simple to do app created in react.",
+    "skills": [],
+    "demo": "https://bhawnachandla.github.io/weather-app/",
+   "source": "https://github.com/bhawnachandla/weather-app.git"
   }
 ]
