@@ -40,19 +40,19 @@
    "source": "https://github.com/bhawnachandla/portfolio.git"
   },
   {
-    "title": "My To Do App",
-    "imageSrc": "projects/portfolio.png",
-    "description": "a simple to do app created in react.",
-    "skills": [],
-    "demo": "https://myapp-to-do.netlify.app/",
-   "source": "https://github.com/bhawnachandla/To-do-app"
-  },
-  {
     "title": "Weather App",
     "imageSrc": "projects/weatherapp.png",
-    "description": "a simple to do app created in react.",
+    "description": "This weather app is created using HTML,CSS and JS.",
     "skills": [],
     "demo": "https://bhawnachandla.github.io/weather-app/",
    "source": "https://github.com/bhawnachandla/weather-app.git"
+  },
+  {
+    "title": "Keeper App",
+    "imageSrc": "projects/todoapp.png",
+    "description": "A simple to do app created in react.",
+    "skills": [],
+    "demo": "https://myapp-to-do.netlify.app/",
+   "source": "https://github.com/bhawnachandla/Keeper-App.git"
   }
 ]
