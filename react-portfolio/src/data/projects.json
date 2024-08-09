@@ -49,10 +49,18 @@
   },
   {
     "title": "Keeper App",
+    "imageSrc": "projects/keeperapp.png",
+    "description": "This is a note taking app created in react.",
+    "skills": [],
+    "demo": "https://mynote-keeping-app.netlify.app/",
+   "source": "https://github.com/bhawnachandla/Keeper-App.git"
+  },
+  {
+    "title": "To Do App",
     "imageSrc": "projects/todoapp.png",
     "description": "A simple to do app created in react.",
     "skills": [],
     "demo": "https://myapp-to-do.netlify.app/",
-   "source": "https://github.com/bhawnachandla/Keeper-App.git"
+   "source": ""
   }
 ]
